@@ -1,5 +1,5 @@
-# Simple Express.js App
-Simple TypeScript-based Express.js application template
+# Express.ts Swagger Docker
+Express.js TypeScript template for backend applications with auto-generated SwaggerUI and Docker-Compose deployment configuration.
 
 ## Install
 To install the application, do the following after cloning the repository:
