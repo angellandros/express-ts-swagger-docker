@@ -1,0 +1,28 @@
+{
+  "name": "simple-express",
+  "version": "0.0.1",
+  "description": "A simple Express.js app",
+  "main": "src/main.ts",
+  "dependencies": {
+    "express": "^4.17.1",
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/angellandros/simple-express.git"
+  },
+  "keywords": [
+    "expressjs",
+    "typescript"
+  ],
+  "author": "Mohammad-Ali A'RÂBI <aerabi@gmx.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angellandros/simple-express/issues"
+  },
+  "homepage": "https://github.com/angellandros/simple-express#readme"
+}
