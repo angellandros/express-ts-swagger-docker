@@ -11,6 +11,8 @@
     "tslint": "^5.20.0"
   },
   "scripts": {
+    "build": "tsc -p src",
+    "run": "node dist/main.js",
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
   "repository": {
