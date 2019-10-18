@@ -7,9 +7,11 @@
     "express": "^4.17.1",
     "typescript": "^3.6.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tslint": "^5.20.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
   "repository": {
     "type": "git",
