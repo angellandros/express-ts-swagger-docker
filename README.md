@@ -10,7 +10,7 @@ $ npm install
 ## Build and Run
 To build the application:
 ```bash
-$ npm run build
+$ npm run build:all
 ```
 
 And to run the server:
