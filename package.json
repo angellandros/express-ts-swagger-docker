@@ -1,10 +1,12 @@
 {
-  "name": "simple-express",
+  "name": "express-ts-swagger-docker",
   "version": "0.0.1",
-  "description": "A simple Express.js app",
+  "description": "Express.js TypeScript template with Swagger UI and Docker Compose",
   "main": "src/main.ts",
   "dependencies": {
+    "@types/node": "^12.11.1",
     "express": "^4.17.1",
+    "tsoa": "^2.5.7",
     "typescript": "^3.6.4"
   },
   "devDependencies": {
@@ -17,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/angellandros/simple-express.git"
+    "url": "git+ssh://git@github.com/angellandros/express-ts-swagger-docker.git"
   },
   "keywords": [
     "expressjs",
@@ -26,7 +28,7 @@
   "author": "Mohammad-Ali A'RÂBI <aerabi@gmx.de>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/angellandros/simple-express/issues"
+    "url": "https://github.com/angellandros/express-ts-swagger-docker/issues"
   },
-  "homepage": "https://github.com/angellandros/simple-express#readme"
+  "homepage": "https://github.com/angellandros/express-ts-swagger-docker#readme"
 }
