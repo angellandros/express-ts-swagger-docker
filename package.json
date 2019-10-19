@@ -18,6 +18,7 @@
     "build:ts": "tsc -p src",
     "build:all": "npm run build:routes && npm run build:swagger && npm run build:ts",
     "server": "node dist/main.js",
+    "docker:build": "docker build -t angellandros/express-ts .",
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
   "repository": {
