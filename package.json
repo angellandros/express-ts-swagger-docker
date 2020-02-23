@@ -1,16 +1,16 @@
 {
   "name": "express-ts-swagger-docker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Express.js TypeScript template with Swagger UI and Docker Compose",
   "main": "src/main.ts",
   "dependencies": {
-    "@types/node": "^12.11.1",
-    "express": "^4.17.1",
-    "tsoa": "^2.5.7",
-    "typescript": "^3.6.4"
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "tslint": "^5.20.0"
+    "@types/node": "^12.12.28",
+    "tslint": "^5.20.0",
+    "tsoa": "^2.5.13",
+    "typescript": "^3.8.2"
   },
   "scripts": {
     "build:routes": "mkdir -p src/routes && tsoa routes",
